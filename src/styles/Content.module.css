@@ -1,0 +1,40 @@
+.position{
+  display: flex;
+  justify-content: center;
+
+}
+
+.center{
+  width: 1140px;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 20rem;
+}
+
+.text{
+  align-items: center;
+  color: #FFF;
+  font-size:2.5rem;
+}
+
+.blue{
+  color: #00bcd4;
+}
+
+.contato{
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  border-radius: 6px;
+  color: #FFF;
+  background-color: transparent;
+  border: 1px solid #00bcd4 ;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.contato:hover{
+  background-color: #00bcd4;
+  transform: scale(1.1);
+}
